@@ -1,0 +1,18 @@
+{
+  "name": "Chatari : discord chatbot",
+  "version": "1.0.0",
+  "description": "A Simple Discord Chatbot Created by Codewhiteweb",
+  "main": "index.js",
+  "dependencies": {
+    "chatbot-discord": "^1.0.1",
+    "discord.js": "^12.5.3",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start":"node index.js"
+  },
+  "keywords": [],
+  "author": "CodeWhiteWeb",
+  "license": "ISC"
+}
