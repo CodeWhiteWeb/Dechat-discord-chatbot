@@ -1,18 +1,36 @@
 {
-  "name": "Chatari : discord chatbot",
+  "name": "dechat-discord-chatbot",
   "version": "1.0.0",
   "description": "A Simple Discord Chatbot Created by Codewhiteweb",
   "main": "index.js",
   "dependencies": {
     "chatbot-discord": "^1.0.1",
     "discord.js": "^12.5.3",
-    "dotenv": "^16.0.0",
-    "express": "^4.17.1"
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
   },
+  "devDependencies": {},
   "scripts": {
-    "start":"node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeWhiteWeb/Dechat-discord-chatbot.git"
+  },
+  "keywords": [
+    "chatbot-discord",
+    "chatbot",
+    "discord.js",
+    "discordjs",
+    "discordchatbot",
+    "discordbot",
+    "discordjschatbot",
+    "discor.djs"
+  ],
   "author": "CodeWhiteWeb",
-  "license": "ISC"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeWhiteWeb/Dechat-discord-chatbot/issues"
+  },
+  "homepage": "https://github.com/CodeWhiteWeb/Dechat-discord-chatbot#readme"
 }

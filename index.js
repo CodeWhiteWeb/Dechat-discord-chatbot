@@ -20,15 +20,22 @@ client.on("ready", () => {
 client.on("message", async message => {
   if (message.channel.name == "chatbot") {
     if (message.author.bot) return;
-    // var asign
+    // var assign
     let uid = message.author.id
     let msg = message.content
+    
+    
+    
     //new chat
     const chat = new Chat({
       user: uid,
       name: "Chatari"//name of bot
       // all Possible parameters :-    https://gist.github.com/CodeWhiteWeb/af80da4c1942f6a5df7118a3f64ea363
     });
+
+
+
+    
     message.content = message.content.replace(/@(everyone)/gi, "everyone").replace(/@(here)/gi, "here");
     if (message.content.includes(`@`)) {
       return message.channel.send(`**:x: Please dont mention anyone**`);
